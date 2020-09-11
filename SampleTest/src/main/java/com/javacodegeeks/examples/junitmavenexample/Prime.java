@@ -1,3 +1,5 @@
+package com.javacodegeeks.examples.junitmavenexample;
+
 public class Prime {
 
     public static void main(String[] args) {
@@ -14,15 +16,15 @@ public class Prime {
             }
         }
 
-        if (!flag)
+        if (!flag) {
             System.out.println(num + " is a prime number.");
             System.out.println("this is jagadish and i made a change");
-        else
+        } else {
             System.out.println(num + " is not a prime number.");
             System.out.println("this is jagadish in the else loop");
         System.out.println("this is jagadish in the else loop");
         System.out.println("this is jagadish in the else loop");
         System.out.println("this is jagadish in the else loop");
-        
+      }  
     }
 }
